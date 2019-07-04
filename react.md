@@ -14,5 +14,7 @@ Derived state should be used sparingly
 07:41:22.910 index.js:1452 Warning: useEffect function must return a cleanup function or nothing. Promises and useEffect(async () => …) are not supported, but you can call an async function inside an effect.. 
 
 
-### see
+### sees the props & state & variables defined in component.
 If we apply the same substitution principle, each render “sees” its own count:
+
+Every function inside the component render (including event handlers, effects, timeouts or API calls inside them) captures the props and state of the render call that defined it.
