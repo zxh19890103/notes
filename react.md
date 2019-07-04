@@ -12,3 +12,7 @@ Derived state should be used sparingly
 
 ### useEffect
 07:41:22.910 index.js:1452 Warning: useEffect function must return a cleanup function or nothing. Promises and useEffect(async () => …) are not supported, but you can call an async function inside an effect.. 
+
+
+### see
+If we apply the same substitution principle, each render “sees” its own count:
