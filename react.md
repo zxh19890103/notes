@@ -1,4 +1,4 @@
-### About getDerivedStateFromProps
+### [LifeCycle] getDerivedStateFromProps
 
 ```
 getDerivedStateFromProps exists for only one purpose. 
@@ -11,11 +11,11 @@ Derived state should be used sparingly
 
 ```
 
-### All problems with it were caused by
+### All problems with _getDerivedStateFromProps_ were caused by
 1. unconditionally updating state from props
 2. updating state whenever props and state don't match.
 
-### useEffect
+### [Hooks] useEffect
 ```
 07:41:22.910 index.js:1452 Warning: useEffect function must return a cleanup function or nothing. 
 Promises and useEffect(async () => …) are not supported, 
@@ -23,7 +23,7 @@ but you can call an async function inside an effect..
 ```
 
 
-### sees the props & state & variables defined in component.
+### [Hooks] It sees the props & state & variables defined in component.
 ```
 If we apply the same substitution principle, each render “sees” its own count:
 
