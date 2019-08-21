@@ -19,7 +19,7 @@ For compilers to find ruby you may need to set:
 ```
 Ruby is very in '/usr/local/Cellar/ruby/2.6.3'
 
-Ruby in '/usr/local/opt' is just symlink
+Ruby in '/usr/local/opt/ruby' is just symlink
 
 Libraries of RubyGems are in '/usr/local/lib/ruby' include 'bundle'
 ```
