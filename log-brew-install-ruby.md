@@ -15,3 +15,9 @@ For compilers to find ruby you may need to set:
   export LDFLAGS="-L/usr/local/opt/ruby/lib"
   export CPPFLAGS="-I/usr/local/opt/ruby/include"
 ```
+
+```
+Ruby is very in '/usr/local/Cellar/ruby/2.6.3'
+
+Ruby in '/usr/local/opt' is just symlink
+```
